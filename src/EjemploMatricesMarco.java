@@ -3,9 +3,9 @@ public class EjemploMatricesMarco {
         int[][] matriz = new int[5][5];
 
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length ; j++) {
-                if (i == 0 || i == matriz.length -1
-                || j == 0 || j == matriz[i].length -1 || i == j){
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (i == 0 || i == matriz.length - 1
+                        || j == 0 || j == matriz[i].length - 1 || i == j) {
                     matriz[i][j] = 1;
                 }
             }
@@ -17,6 +17,5 @@ public class EjemploMatricesMarco {
             }
             System.out.println();
         }
-
     }
 }
