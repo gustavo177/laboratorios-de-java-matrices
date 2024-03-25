@@ -34,7 +34,7 @@ public class EjercicioPracticoMatriz {
         if (n == 0) {
             System.err.println("ERROR");
         } else {
-            String[][] matriz = new String[6][6];
+            String[][] matriz = new String[n][n];
             int c = matriz.length;
 
             for (int i = 0; i < matriz.length; i++) {
